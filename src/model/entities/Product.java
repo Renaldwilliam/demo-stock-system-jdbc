@@ -50,11 +50,12 @@ public class Product implements Serializable {
 		this.quantity = quantity;
 	}
 
+	
 	public Date getDate() {
 		return date;
 	}
 
-	public void setBirthDate(Date date) {
+	public void setDate(Date date) {
 		this.date = date;
 	}
 
